@@ -50,13 +50,34 @@ export const options = {
     iterations: iterations,
 };
 
-function Loginpage() {
+function dashboard() {
     const response = http.get('https://staging.pislinfra.com/#/dashboard');
     check(response, {
         'is status code 200': (r) => r.status === 200,
     });
 }
-
+function RRApproval() {
+    const response = http.get('https://staging.pislinfra.com/#/procurement/prlist');
+    check(response, {
+        'is status code 200': (r) => r.status === 200,
+    });
+}
+function RRList() {
+    const response = http.get('https://staging.pislinfra.com/#/procurement/view-RR-list');
+    check(response, {
+        'is status code 200': (r) => r.status === 200,
+    });
+}
+function CreateRR() {
+    const response = http.get('https://staging.pislinfra.com/#/procurement');
+    check(response, {
+        'is status code 200': (r) => r.status === 200,
+    });
+}
 export default function () {
-    Loginpage();
+    dashboard();
+    RRApproval();
+    RRStatus();
+    CreateRR();
+
 }
