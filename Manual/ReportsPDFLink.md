@@ -7,5 +7,5 @@
 # K6 Test analyze report of Create RR page in prorecurement of PISLInfra website
 --> https://drive.google.com/file/d/1m_I3POhz94mZDvxW1_Wn12dDzmt0St2P/view?usp=drive_link
 
-# K6 Test analyze report of RR Status page in prorecurement of PISLInfra website
+# K6 Test analyze report of RR List page in prorecurement of PISLInfra website
 --> https://drive.google.com/file/d/10P-gV46syGOaUElz1dt5g6vGVAGydjV2/view?usp=drive_link
