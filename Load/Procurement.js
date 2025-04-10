@@ -52,10 +52,19 @@ function RateAPProval() {
     });
 
 }
+
+function PurchaseOrder() {
+    const response = http.get('https://staging.pislinfra.com/#/purchase-order');
+    check(response, {
+        'is status code 200': (r) => r.status === 200,
+    });
+
+}
 export default function () {
     // RRApproval();
     // RRStatus();
     // CreateRR();
     //RateComparative();
-    RateAPProval()
+    //RateAPProval();
+    PurchaseOrder();
 }
