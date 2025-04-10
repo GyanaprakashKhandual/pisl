@@ -18,3 +18,6 @@
 
 # K6 Test analyze report of Purchase Order page in prorecurement of PISLInfra website
 --> https://drive.google.com/file/d/1zVcUYYwpSM7VWnmUYAKXeBZVCF5ozD5m/view?usp=sharing
+
+# K6 test analyze report of Location Manager in manger Mangement of PISLInfra website
+--> https://drive.google.com/file/d/1pgUbVWWhY56j0d37Q04akADkRH9a4ffw/view?usp=sharing
