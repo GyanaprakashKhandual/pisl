@@ -18,13 +18,35 @@ export const options = {
     iterations,
 };
 
-export function Loginpage() {
+
+function RRApproval() {
+    const response = http.get('https://staging.pislinfra.com/#/procurement/prlist');
+    check(response, {
+        'is status code 200': (r) => r.status === 200,
+    });
+}
+function RRList() {
+    const response = http.get('https://staging.pislinfra.com/#/procurement/view-RR-list');
+    check(response, {
+        'is status code 200': (r) => r.status === 200,
+    });
+}
+function CreateRR() {
     const response = http.get('https://staging.pislinfra.com/#/procurement');
+    check(response, {
+        'is status code 200': (r) => r.status === 200,
+    });
+}
+function RateComparative() {
+    const response = http.get('https://staging.pislinfra.com/#/rate-comparative');
     check(response, {
         'is status code 200': (r) => r.status === 200,
     });
 }
 
 export default function () {
-    Loginpage();
+    // RRApproval();
+    // RRStatus();
+    // CreateRR();
+    RateComparative();
 }
