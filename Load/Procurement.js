@@ -44,9 +44,18 @@ function RateComparative() {
     });
 }
 
+
+function RateAPProval() {
+    const response = http.get('https://staging.pislinfra.com/#/rate-approval');
+    check(response, {
+        'is status code 200': (r) => r.status === 200,
+    });
+
+}
 export default function () {
     // RRApproval();
     // RRStatus();
     // CreateRR();
-    RateComparative();
+    //RateComparative();
+    RateAPProval()
 }
