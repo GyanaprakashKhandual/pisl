@@ -12,3 +12,7 @@
 
 # K6 Test analyze report of Rate Comparative page in prorecurement of PISLInfra website
 --> https://drive.google.com/file/d/1QE6BUn945Ihmy0bSJAh59wXOcbKvPDUB/view?usp=sharing
+
+#  K6 Test analyze report of Rate Approval page in prorecurement of PISLInfra website
+-->https://drive.google.com/file/d/1aqtBPj7Qyu9VD99dJi1P-V6YjNDYLc1k/view?usp=sharing
+
