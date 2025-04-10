@@ -9,3 +9,6 @@
 
 # K6 Test analyze report of RR List page in prorecurement of PISLInfra website
 --> https://drive.google.com/file/d/10P-gV46syGOaUElz1dt5g6vGVAGydjV2/view?usp=drive_link
+
+# K6 Test analyze report of Rate Comparative page in prorecurement of PISLInfra website
+--> https://drive.google.com/file/d/1QE6BUn945Ihmy0bSJAh59wXOcbKvPDUB/view?usp=sharing
