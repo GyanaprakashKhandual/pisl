@@ -11,7 +11,8 @@ if (!validTestTypes.includes(Number(testType))) {
 }
 
 const vus = Number(testType);
-const iterations = Number(testType);
+const iterations = Number(testType);                   
+
 
 export const options = {
     vus,
